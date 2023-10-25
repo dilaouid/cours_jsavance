@@ -146,8 +146,10 @@ Du coup, votre fichier HTML ne doit pas pointer vers le fichier SCSS, mais bien 
     Le code du fichier `reset.scss` sera inséré à cet endroit. Cela permet de diviser votre code en plusieurs fichiers et de l'organiser de manière plus efficace. Vous pouvez également importer des fichiers CSS normaux. Cela permet de migrer progressivement votre code CSS vers SCSS.
 ouveau fichier `main.scss` :
 
+
+    Par exemple, si vous avez un fichier `style.css` existant, vous pouvez le renommer en `style.scss` et l'importer dans un nouveau fichier scss.
+
     ```scss
-    Par exemple, si vous avez un fichier `style.css` existant, vous pouvez le renommer en `style.scss` et l'importer dans un n
     @import 'style';
     ```
 

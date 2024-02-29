@@ -1,24 +1,32 @@
-import { useState } from "react";
+import { useDispatch } from 'react-redux';
+import { augmenter, diminuer } from '../features/counter/counterSlice';
+import CounterChild from './CounterChild';
 
 function Counter(props) {
     const username = props.username;
-    const [ count, setCount ] = useState(0);
 
-    function diminuer () {
-        setCount(count - 1);
-    }
+    // je veux sélectionner la valeur actuelle de mon compteur
+    // const count = useSelector((state) => state.counter.value);
 
-    function augmenter () {
-        setCount(count + 1);
-    }
-
-
+    // dispatch permet d'executer des fonctions (actions) qui vont modifier
+    // l'état de "count" à travers tout mes autres components
+    const dispatch = useDispatch();
     return (
         <div>
             <h2>Bonjour { username }</h2>
-            <p>Le compteur vaut: { count }</p>
-            <button onClick={augmenter}>Augmenter le compteur</button>
-            <button onClick={diminuer}>Diminuer le compteur</button>
+            <CounterChild />
+
+            {/* Au clic du bouton, je DISPATCHE l'action d'augmenter
+                mon compteur à travers tout les components */}
+            <button onClick={() => dispatch(augmenter())}>
+                Augmenter le compteur
+            </button>
+            
+            {/* Au clic du bouton, je DISPATCHE l'action de diminuer
+                mon compteur à travers tout les components */}
+            <button onClick={() => dispatch(diminuer())}>
+                Diminuer le compteur
+            </button>
         </div>
     )
 }

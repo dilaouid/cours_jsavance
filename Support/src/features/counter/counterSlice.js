@@ -4,7 +4,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 // const [ counter, setCounter ] = useState(0);
 
-
+// Notre slice de counter, qui va contenir notre état global de notre compteur (value) et nos actions (augmenter, diminuer)
 export const counterSlice = createSlice({
     name: 'counter',
     initialState: {
@@ -20,5 +20,8 @@ export const counterSlice = createSlice({
     }
 })
 
+// on exporte nos actions pour les utiliser dans nos components
 export const { augmenter, diminuer } = counterSlice.actions;
+
+// on exporte notre reducer pour l'utiliser dans notre store
 export default counterSlice.reducer;

@@ -9,6 +9,7 @@ import { store } from './store';
 
 function App() {
   return (
+    // On enveloppe notre application avec le Provider pour que tout les components puissent accéder à notre store
     <Provider store={store}>
       <BrowserRouter>
 

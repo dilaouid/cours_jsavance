@@ -197,6 +197,48 @@ const dispatch = useDispatch();
 
 Dans cet exemple, `increment()` et `decrement()` sont des action creators générés par `createSlice`. En appelant ces fonctions, vous créez une action que vous passez ensuite à `dispatch`. Redux Toolkit s'occupe du reste, et le state est mis à jour en conséquence.
 
+### Intégrer Redux Toolkit dans votre application qui a un Router
+
+Si vous utilisez un router dans votre application, vous devez envelopper votre application avec le `Provider` de Redux. Cela permet à votre application d'accéder au store Redux et de le mettre à jour.
+
+Dans votre application React, vous utiliserez `BrowserRouter` pour envelopper votre application et `Routes` pour définir les différents chemins d'accès. Chaque `Route` spécifie un component à rendre en fonction de l'URL, comme on l'a déjà évoqué dans le cours (J02)
+
+```javascript
+// App.js
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Home from './components/Home';
+import Counter from './components/Counter';
+import TestAPI from './components/TestAPI';
+
+import { Provider } from 'react-redux';
+import { store } from './store';
+
+function App() {
+  return (
+    <Provider store={store}>
+        <BrowserRouter>
+        <nav>
+            <ul>
+            <li><Link to="/">Homepage</Link></li>
+            <li><Link to="/counter">Counter</Link></li>
+            <li><Link to="/api">Test API</Link></li>
+            </ul>
+        </nav>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/counter" element={<Counter />} />
+            <Route path="/api" element={<TestAPI />} />
+        </Routes>
+        </BrowserRouter>
+    </Provider>
+  );
+}
+
+export default App;
+```
+
+Ici, nous avons enveloppé notre application avec le `Provider` de Redux, qui prend le store comme prop. Cela permet à tous les components de l'application d'accéder au store Redux et de le mettre à jour. Vous pouvez maintenant utiliser `useSelector` et `useDispatch` dans n'importe quel component de votre application pour accéder et modifier l'état global.
+
 ### Résumé imagé
 
 Imaginez que vous jouez à un jeu vidéo où `useSelector` est votre moyen de vérifier votre score ou vos points de vie, et `useDispatch` est la manière d'effectuer des actions dans le jeu (comme sauter ou attaquer). Redux Toolkit aide à gérer les règles du jeu (le store et les reducers), tandis que `useSelector` et `useDispatch` vous permettent d'interagir avec ce jeu.

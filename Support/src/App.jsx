@@ -28,12 +28,12 @@ function App() {
       </nav>
 
 
-      { /* Mes routes */}
-      <Routes>
-        <Route path="/" Component={Home} />
-        <Route path="/counter" element={<Counter username="Franck" />} />
-        <Route path="/api" Component={TestAPI} />
-      </Routes>
+    { /* Mes routes */}
+    <Routes>
+      <Route path="/" Component={Home} />
+      <Route path="/counter" element={<Counter username="Franck" />} />
+      <Route path="/api" Component={TestAPI} />
+    </Routes>
 
       </BrowserRouter>
     </Provider>

@@ -12,16 +12,13 @@ export const counterSlice = createSlice({
     },
     reducers: {
         augmenter: state => {
-            state.value = state.value + 1;
+            state.value += 1 // setCounter(counter + 1)
         },
         diminuer: state => {
-            state.value = state.value - 1;
+            state.value -= 1 // setCounter(counter - 1)
         }
     }
-})
+});
 
-// on exporte nos actions pour les utiliser dans nos components
 export const { augmenter, diminuer } = counterSlice.actions;
-
-// on exporte notre reducer pour l'utiliser dans notre store
 export default counterSlice.reducer;

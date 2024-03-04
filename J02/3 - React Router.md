@@ -82,9 +82,9 @@ function Contact() {
 ### Conseils pour Naviguer avec Aisance
 
 - **Utilisez `<Link>` pour vos boutons et liens de navigation :** C'est comme avoir des raccourcis pratiques dans votre poche.
-`<Link>` en fait, c'est quoi ? C'est un composant qui permet de créer des liens entre les différentes pages de votre application. C'est un peu comme un panneau de signalisation qui indique le chemin à suivre à vos utilisateurs. SAUF QUE ! C'est un peu plus que ça, car il permet de naviguer entre les différentes pages de votre application sans recharger la page.
+`<Link>` en fait, c'est quoi ? C'est un component qui permet de créer des liens entre les différentes pages de votre application. C'est un peu comme un panneau de signalisation qui indique le chemin à suivre à vos utilisateurs. SAUF QUE ! C'est un peu plus que ça, car il permet de naviguer entre les différentes pages de votre application sans recharger la page.
   
-- **Enveloppez vos routes avec `<Routes>` :** Cela crée un contexte pour vos chemins et s'assure que seul le bon composant s'affiche, évitant ainsi toute confusion.
+- **Enveloppez vos routes avec `<Routes>` :** Cela crée un contexte pour vos chemins et s'assure que seul le bon component s'affiche, évitant ainsi toute confusion.
 
 - **Définissez vos routes avec `<Route>` :** Chaque `<Route>` est un chemin vers un nouveau trésor de contenu.
 

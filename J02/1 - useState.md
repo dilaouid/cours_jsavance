@@ -1,16 +1,16 @@
 # Découverte des `useState` en React 🪄
 
-Aujourd'hui, nous allons (enfin, nous avons du coup, là il est tard et vous devez, j'espère, être en train de vous reposer!) jouer avec l'un des outils les plus pratiques et les plus utilisés de React : `useState`. Préparez-vous à devenir le magicien de votre propre royaume de composants avec juste une pincée de sortilège useState. 🧙‍♂️✨
+Aujourd'hui, nous allons (enfin, nous avons du coup, là il est tard et vous devez, j'espère, être en train de vous reposer!) jouer avec l'un des outils les plus pratiques et les plus utilisés de React : `useState`. Préparez-vous à devenir le magicien de votre propre royaume de components avec juste une pincée de sortilège useState. 🧙‍♂️✨
 
 ## Qu'est-ce que `useState` ? 🤔
 
-Imaginez que vous avez une boîte magique 🎁. Chaque fois que vous ouvrez cette boîte, vous pouvez changer ce qu'il y a à l'intérieur. Dans React, cette boîte magique s'appelle `useState`. Il vous permet de stocker et de modifier des valeurs dans vos composants, comme transformer une grenouille en prince ou une page web statique en une fête interactive.
+Imaginez que vous avez une boîte magique 🎁. Chaque fois que vous ouvrez cette boîte, vous pouvez changer ce qu'il y a à l'intérieur. Dans React, cette boîte magique s'appelle `useState`. Il vous permet de stocker et de modifier des valeurs dans vos components, comme transformer une grenouille en prince ou une page web statique en une fête interactive.
 
-Ca s'appelle un **Hook**, et c'est une des fonctionnalités les plus puissantes de React. Les Hooks sont des fonctions qui vous permettent d'utiliser l'état et d'autres fonctionnalités de React sans écrire de classes. Ils sont introduits dans **React 16.8** et sont la meilleure façon de réutiliser la logique d'état entre les composants.
+Ca s'appelle un **Hook**, et c'est une des fonctionnalités les plus puissantes de React. Les Hooks sont des fonctions qui vous permettent d'utiliser l'état et d'autres fonctionnalités de React sans écrire de classes. Ils sont introduits dans **React 16.8** et sont la meilleure façon de réutiliser la logique d'état entre les components.
 
 ### Comment ça fonctionne ?
 
-Dans le royaume de React, chaque composant peut avoir son propre état. L'état, c'est juste une façon chic de dire "les données que le composant garde en mémoire".
+Dans le royaume de React, chaque component peut avoir son propre état. L'état, c'est juste une façon chic de dire "les données que le component garde en mémoire".
 
 ```jsx
 import React, { useState } from 'react';
@@ -40,7 +40,7 @@ Dans cet acte de magie, `useState` est invoqué avec `0` comme valeur initiale. 
 - `magicNumber` est la valeur actuelle.
 - `setMagicNumber` est une fonction qui nous permet de changer cette valeur.
 
-Le bouton a un attribut `onClick` qui appelle `setMagicNumber` (onClick est un événement, et il attend une fonction à appeler lorsqu'il est déclenché). Lorsque le bouton est cliqué, `setMagicNumber` est appelé avec une nouvelle valeur, et le composant est mis à jour pour refléter ce changement.
+Le bouton a un attribut `onClick` qui appelle `setMagicNumber` (onClick est un événement, et il attend une fonction à appeler lorsqu'il est déclenché). Lorsque le bouton est cliqué, `setMagicNumber` est appelé avec une nouvelle valeur, et le component est mis à jour pour refléter ce changement.
 
 C'est comme avoir un assistant dans votre spectacle qui peut rapidement changer le décor à votre commande.
 
@@ -53,7 +53,7 @@ La syntaxe `const [magicNumber, setMagicNumber] = useState(0);` est une forme de
 
 ## Pourquoi utiliser `useState` ? 🌟
 
-Sans `useState`, nos composants seraient comme des statues : belles mais incapables de bouger ou de réagir. Avec `useState`, nos composants peuvent danser, chanter et réagir au public (les utilisateurs). Cela rend notre spectacle (l'application) vivant et mémorable.
+Sans `useState`, nos components seraient comme des statues : belles mais incapables de bouger ou de réagir. Avec `useState`, nos components peuvent danser, chanter et réagir au public (les utilisateurs). Cela rend notre spectacle (l'application) vivant et mémorable.
 
 ### Exemple Interactif : Changer de Thème 🌓
 
@@ -93,7 +93,7 @@ Dans ce tour, `useState` contrôle l'éclairage de notre scène. Un simple clic,
 
 Tout comme dans tout bon jeu de société, il y a des règles à suivre avec `useState` pour éviter le chaos.
 
-1. **Au sommet de votre composant :** Placez `useState` en haut de votre composant, pas dans des boucles ou des conditions. Sinon, React risque de se perdre dans son propre jeu de magie.
+1. **Au sommet de votre component :** Placez `useState` en haut de votre component, pas dans des boucles ou des conditions. Sinon, React risque de se perdre dans son propre jeu de magie.
 
    ```javascript
    // Ne faites PAS ça :
@@ -142,6 +142,6 @@ Et je répète encore ce que j'ai dis à l'oral, les HOF (Higher Order Functions
 
 ## Conclusion : Le Pouvoir des États 🎩✨
 
-Avec le sort `useState`, nous avons le pouvoir de créer des composants réactifs et interactifs. Il transforme notre application d'une toile statique à une peinture en mouvement où chaque interaction est une touche de pinceau qui anime l'œuvre.
+Avec le sort `useState`, nous avons le pouvoir de créer des components réactifs et interactifs. Il transforme notre application d'une toile statique à une peinture en mouvement où chaque interaction est une touche de pinceau qui anime l'œuvre.
 
-Rappelez-vous, utilisez ce pouvoir à bon escient, et vous serez capable de créer des applications React qui enchantent les utilisateurs avec chaque clic. Laissez votre imagination (et vos composants) s'envoler ! 🚀
+Rappelez-vous, utilisez ce pouvoir à bon escient, et vous serez capable de créer des applications React qui enchantent les utilisateurs avec chaque clic. Laissez votre imagination (et vos components) s'envoler ! 🚀

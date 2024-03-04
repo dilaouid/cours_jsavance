@@ -60,7 +60,7 @@ Autre chose, utiliser `await` n'est pas toujours la meilleure solution, car cela
 
 ## En Résumé : Axios, Votre Pêcheur de Données
 
-Axios dans React, c'est votre canne à pêche sympathique pas piqué des hannetons pour attraper des données sans tracas. Il simplifie le processus, gère les erreurs comme un pro, et intègre parfaitement vos prises dans l'étang de votre composant React. Alors, lancez votre ligne, détendez-vous, et regardez les données mordre à l'hameçon.
+Axios dans React, c'est votre canne à pêche sympathique pas piqué des hannetons pour attraper des données sans tracas. Il simplifie le processus, gère les erreurs comme un pro, et intègre parfaitement vos prises dans l'étang de votre component React. Alors, lancez votre ligne, détendez-vous, et regardez les données mordre à l'hameçon.
 
 ---
 

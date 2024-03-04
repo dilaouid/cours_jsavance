@@ -10,9 +10,9 @@
   Des exemples d'APIs, seraient par exemple : [https://jsonplaceholder.typicode.com/](JSONPlaceholder), [https://pokeapi.co/](PokeAPI), [https://swapi.dev/](Star Wars API), [https://www.thecocktaildb.com/](The Cocktail DB), [https://www.themealdb.com/](The Meal DB), [https://www.thecocktaildb.com/](The Cocktail DB), [https://www.themoviedb.org/](The Movie DB), [https://www.weatherapi.com/](Weather API), [https://www.metaweather.com/](MetaWeather), [https://www.openbrewerydb.org/](Open Brewery). Ou alors une au choix, comme vous voulez !
   3. Une page qui a un component enfant auquel vous passer une `props` (c'est à dire une page avec un component, et à l'intérieur de ce component, un autre component)
 
-- **Components :** Utilisez le plus de components possibles pour organiser votre application. Par exemple, vous pourriez avoir un composant `Navbar` pour faire votre barre de navigation, un composant `Footer` pour faire un pied de page, etc...
+- **Components :** Utilisez le plus de components possibles pour organiser votre application. Par exemple, vous pourriez avoir un component `Navbar` pour faire votre barre de navigation, un component `Footer` pour faire un pied de page, etc...
 
-- **useState et useEffect :** Utilisez `useState` au moins une fois. Employez `useEffect` pour charger les données de l'API lorsque le composant est monté ou lorsque des dépendances changent.
+- **useState et useEffect :** Utilisez `useState` au moins une fois. Employez `useEffect` pour charger les données de l'API lorsque le component est monté ou lorsque des dépendances changent.
 
 ## Livrables
 

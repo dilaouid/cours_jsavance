@@ -57,7 +57,7 @@ function Form() {
         <label htmlFor='body'>Contenu</label>
         <input type="text" id="body" name="body" value={form.body} onChange={(event) => handleChange(event)}  placeholder='Contenu du post' />
         <button type="submit">Envoyer</button>
-        { !success && <span>Super ca a bien envoyé</span> }
+        { success && <span>Super ca a bien envoyé</span> }
         { /* Si success est vrai, alors on affiche le span, sinon on ne l'affiche pas */ }
         { /* Les valeurs falsy sont : false, 0, '', null, undefined, NaN */}
         { /* Les valeurs truthy sont : tout le reste */}

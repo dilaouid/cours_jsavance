@@ -39,7 +39,7 @@ function Form() {
                 setForm({
                     title: '',
                     body: ''
-                })
+                }) // je reinitialise mon formulaire avec des inputs vides
                 setSuccess(true);
             })
 
@@ -66,3 +66,16 @@ function Form() {
 }
 
 export default Form;
+
+/* Pour récapituler :
+-> Les valeurs de notre formulaires sont stockées dans un state form
+-> On a un formulaire html assez classique
+-> Les inputs, au moment d'un changement de valeur, passe par la fonction handleChange
+-> Cette fonction va mettre notre state form à jour avec seulement la valeur/name qui nous intéresse (destructuring)
+-> On clique sur submit du formulaire, comportement classique html, ca va executer la fonction onSubmit de mon form
+-> Celle ci, handleSubmit, va empêcher le comportement natif d'un formulaire (à savoir, refresh une page)
+-> Va envoyer une requête POST à notre API, avec comme donnée les valeurs de notre state form
+-> C'est passé niquel, on console log le resultat, et on mets notre state success à true
+-> Sinon bah il se passe rien juste un console error de l'erreur
+
+*/

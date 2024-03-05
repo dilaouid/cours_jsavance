@@ -9,6 +9,7 @@ import { Provider } from 'react-redux';
 import { store } from './store';
 
 import Navbar from './components/Navbar';
+import Form from './components/Form';
 
 function App() {
   
@@ -31,6 +32,7 @@ function App() {
       <Route path="/counter" element={<Counter />} />
       <Route path="/api" Component={TestAPI} />
       <Route path="/username" Component={ChangeUsername} />
+      <Route path="/form" Component={Form} />
     </Routes>
 
      

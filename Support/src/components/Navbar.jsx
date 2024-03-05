@@ -19,6 +19,9 @@ function Navbar() {
           <li>
             <Link to="/username">Change username</Link>
           </li>
+          <li>
+            <Link to="/form">Form</Link>
+          </li>
         </ul>
       </nav>)
 }

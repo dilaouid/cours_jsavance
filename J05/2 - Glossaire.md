@@ -1,7 +1,5 @@
 # Glossaire résumé des notions vues dans la semaine
 
-Lien vers le [glossaire complet]
-
 | Terme             | Description | Exemple d'utilisation |
 |-------------------|-------------|-----------------------|
 | [hook](https://github.com/dilaouid/cours_jsavance/tree/next-formation/J02)              | Fonctionnalités spéciales de React qui permettent d'utiliser l'état et d'autres fonctionnalités React sans écrire une classe. | `const [count, setCount] = useState(0);` |

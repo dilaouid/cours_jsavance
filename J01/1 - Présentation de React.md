@@ -28,7 +28,7 @@ React apporte des solutions à des défis courants dans le développement d'inte
 
 - **Écosystème Robuste :** La communauté derrière React est vaste et active, offrant une multitude de ressources, outils et extensions pour améliorer le développement et la performance de l'application.
 
-## Comparaison avec HTML/CSS/JS Traditionnel
+## Comparaison avec HTML/CSS/JS traditionnel
 
 En HTML/CSS/JS classique, pour créer une liste dynamique, vous pourriez manipuler le DOM directement pour insérer des éléments. Avec React, vous créez un component `List` que vous pouvez alimenter avec des données et qui rendra automatiquement la liste à l'écran sans manipulations supplémentaires du DOM.
 

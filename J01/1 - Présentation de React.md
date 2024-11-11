@@ -20,13 +20,13 @@ React se distingue par sa flexibilité et son intégration harmonieuse avec d'au
 
 React apporte des solutions à des défis courants dans le développement d'interfaces utilisateur :
 
-- **Déclaration vs Impératif :** Contrairement à l'approche impérative de la manipulation directe du DOM, React utilise une approche déclarative qui facilite la compréhension et le débuggage du code. En HTML/CSS/JS traditionnel, vous pourriez utiliser `document.createElement` et `appendChild` pour construire votre UI, alors qu'en React, vous décrivez simplement votre UI à un moment donné avec des components.
+- **Déclaration vs impératif :** Contrairement à l'approche impérative de la manipulation directe du DOM, React utilise une approche déclarative qui facilite la compréhension et le débuggage du code. En HTML/CSS/JS traditionnel, vous pourriez utiliser `document.createElement` et `appendChild` pour construire votre UI, alors qu'en React, vous décrivez simplement votre UI à un moment donné avec des components.
 
-- **Components Réutilisables :** React brise l'interface utilisateur en components indépendants et réutilisables (comme des fonctions en JavaScript), ce qui rend le code plus propre, plus facile à comprendre, et encourage la réutilisation.
+- **Components réutilisables :** React brise l'interface utilisateur en components indépendants et réutilisables (comme des fonctions en JavaScript), ce qui rend le code plus propre, plus facile à comprendre, et encourage la réutilisation.
 
 - **Performance :** React minimise les manipulations du DOM, notoirement lentes, en utilisant le Virtual DOM pour effectuer les mises à jour de manière plus efficace.
 
-- **Écosystème Robuste :** La communauté derrière React est vaste et active, offrant une multitude de ressources, outils et extensions pour améliorer le développement et la performance de l'application.
+- **Écosystème robuste :** La communauté derrière React est vaste et active, offrant une multitude de ressources, outils et extensions pour améliorer le développement et la performance de l'application.
 
 ## Comparaison avec HTML/CSS/JS traditionnel
 

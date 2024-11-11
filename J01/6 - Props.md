@@ -6,7 +6,7 @@ Les props (abréviation de "properties") constituent le système de passage de d
 
 Les props sont des objets contenant des valeurs que l'on passe à un component. Elles sont l'équivalent des attributs HTML mais pour les components React. Les props sont immuables dans le component enfant, ce qui signifie que vous ne pouvez pas les modifier directement.
 
-### Exemple Basique de Props
+### Exemple basique de Props
 
 ```jsx
 function Greeting(props) {
@@ -47,7 +47,7 @@ function App() {
 
 Dans cet exemple, le component `Card` utilise `props.children` pour afficher tout contenu qui est placé entre ses balises JSX dans le component `App`. Cela permet au component `Card` d'être réutilisé avec différents contenus.
 
-## Bonnes Pratiques avec les Props
+## Bonnes pratiques avec les Props
 
 - **Déstructuration des Props :** Pour une meilleure lisibilité et simplicité, vous pouvez déstructurer les props dans la signature de la fonction du component.
   

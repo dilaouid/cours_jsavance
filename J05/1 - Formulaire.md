@@ -35,7 +35,7 @@ const [form, setForm] = useState({
 const [success, setSuccess] = useState(false);
 ```
 
-### Rendu du Formulaire
+### Rendu du formulaire
 
 Pour l'instant, le rendu de notre component `Form` est simplement une balise `<form>` vide. Le contenu réel du formulaire (les champs de saisie, le bouton de soumission, etc.) sera ajouté dans les prochaines étapes.
 
@@ -51,7 +51,7 @@ Finalement, on exporte notre component `Form` pour qu'il puisse être utilisé a
 export default Form;
 ```
 
-## Étape 2: INputs
+## Étape 2: Inputs
 
 Pour gérer les entrées utilisateur dans notre formulaire, nous devons mettre à jour notre état `form` à chaque fois que l'utilisateur tape quelque chose dans les champs du formulaire. Pour cela, nous utilisons une fonction appelée `handleChange`. Voici comment cela fonctionne, étape par étape :
 

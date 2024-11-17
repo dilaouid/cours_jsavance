@@ -1,12 +1,12 @@
-# Éclairons les Chemins avec React Router 🛣️✨
+# Éclairons les chemins avec React Router 🛣️✨
 
 Ah, React Router ! Notre fidèle guide dans la jungle luxuriante des applications React. Il assure que nos utilisateurs ne se perdent jamais, même dans les méandres les plus obscurs de nos créations numériques. Alors, accrochez votre ceinture de sécurité et laissons React Router prendre le volant. 🚗💡
 
-## React Router: Le Grand Guide des Routes
+## React Router: Le grand guide des routes
 
 React Router, c'est un peu comme un GPS pour votre application. Il vous aide à naviguer d'une page à l'autre sans jamais quitter la route des yeux. C'est votre compagnon de route numérique, toujours prêt à vous indiquer le bon virage à prendre.
 
-### Comment ça Fonctionne?
+### Comment ça fonctionne?
 
 Pour commencer, on installe `react-router-dom` comme on téléchargerait une nouvelle carte sur notre GPS.
 
@@ -79,7 +79,7 @@ function Contact() {
 }
 ```
 
-### Conseils pour Naviguer avec Aisance
+### Conseils pour naviguer avec aisance
 
 - **Utilisez `<Link>` pour vos boutons et liens de navigation :** C'est comme avoir des raccourcis pratiques dans votre poche.
 `<Link>` en fait, c'est quoi ? C'est un component qui permet de créer des liens entre les différentes pages de votre application. C'est un peu comme un panneau de signalisation qui indique le chemin à suivre à vos utilisateurs. SAUF QUE ! C'est un peu plus que ça, car il permet de naviguer entre les différentes pages de votre application sans recharger la page.
@@ -90,6 +90,6 @@ function Contact() {
 
 Du coup pour les components `Routes` et `Route`, c'est comme des poupées russes, mais pour les routes de votre application. Les `Routes` sont les plus grandes, et les `Route` sont les plus petites. Les `Routes` contiennent les `Route`, et les `Route` contiennent les components à afficher. Et le tout sera à l'intérieur de votre `BrowserRouter` qui est un peu comme la boîte à musique qui fait tourner les poupées russes.
 
-## Conclusion : Naviguez avec Joie et Sérénité
+## Conclusion : Naviguez avec joie et sérénité
 
 Avec React Router, vos utilisateurs navigueront dans votre application comme un poisson dans l'eau. Vos `<Routes>` et `<Link>` sont les seuls outils dont vous aurez besoin pour tracer un chemin clair et serein vers la satisfaction des utilisateurs. Alors, en avant toute ! Que l'exploration commence ! 🚀🗺️

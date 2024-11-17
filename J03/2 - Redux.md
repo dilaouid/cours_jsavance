@@ -13,7 +13,7 @@ Redux Toolkit (RTK) est la boîte à outils officielle pour simplifier le travai
 - **Performance :** Intègre des mises à jour immuables efficaces avec Immer.
 - **Facilité d'utilisation :** Simplifie la configuration du store, la création de reducers, l'exécution d'effets secondaires, et plus encore.
 
-## Premiers Pas avec Redux Toolkit 🐾
+## Premiers pas avec Redux Toolkit 🐾
 
 Pour débuter, installez RTK dans votre projet React :
 
@@ -90,7 +90,7 @@ Quand vous créez un slice avec `createSlice`, vous encapsulez logiquement une p
 
 - **`reducers`**: Un objet contenant les reducers. Chaque reducer est une fonction qui définit comment l'état change en réponse à une action. Redux Toolkit permet de modifier l'état "directement" grâce à l'usage interne de la bibliothèque Immer, qui applique les modifications de manière immuable.
 
-#### `createSlice` en Détail
+#### `createSlice` en détail
 
 Voyons plus en détail chaque partie du `createSlice` :
 
@@ -132,7 +132,7 @@ export const { increment, decrement } = counterSlice.actions;
 
 Pour accéder à votre état et le modifier, utilisez les hooks `useSelector` et `useDispatch`.
 
-```javascript
+```js
 // src/features/counter/Counter.js
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
@@ -169,7 +169,7 @@ Lorsque vous utilisez Redux dans une application React, il est fréquent de voul
 
 **Exemple:**
 
-```javascript
+```js
 const count = useSelector((state) => state.counter.value);
 ```
 
@@ -185,7 +185,7 @@ Le hook `useDispatch` vous donne accès à la méthode `dispatch` du store Redux
 
 **Exemple:**
 
-```javascript
+```js
 const dispatch = useDispatch();
 
 // Pour incrémenter le compteur
@@ -203,7 +203,7 @@ Si vous utilisez un router dans votre application, vous devez envelopper votre a
 
 Dans votre application React, vous utiliserez `BrowserRouter` pour envelopper votre application et `Routes` pour définir les différents chemins d'accès. Chaque `Route` spécifie un component à rendre en fonction de l'URL, comme on l'a déjà évoqué dans le cours (J02)
 
-```javascript
+```js
 // App.js
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';

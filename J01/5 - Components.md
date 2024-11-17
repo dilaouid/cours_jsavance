@@ -1,12 +1,12 @@
-# Création et Import d'un Component
+# Création et import d'un component
 
 Dans React, un component permet de découper l'interface utilisateur en éléments indépendants et réutilisables, facilitant ainsi la gestion et la maintenance de votre application. Nous allons nous concentrer sur la création et l'utilisation de components fonctionnels, la méthode recommandée dans les versions récentes de React.
 
-## Création d'un Component Fonctionnel
+## Création d'un component fonctionnel
 
 Un component fonctionnel en React est simplement une fonction JavaScript qui retourne un élément React, qui est généralement écrit en JSX. Ce type de component est apprécié pour sa simplicité et son efficacité, notamment avec l'introduction des Hooks qui permettent d'utiliser un état local et d'autres fonctionnalités de React sans écrire une classe.
 
-### Exemple de component Fonctionnel
+### Exemple de component fonctionnel
 
 ```jsx
 function Greeting() {
@@ -16,7 +16,7 @@ function Greeting() {
 
 Dans cet exemple, `Greeting` est un component qui retourne un élément JSX représentant un titre `<h1>`. Ce component peut être réutilisé à travers l'application pour afficher ce message de salutation.
 
-## Exportation et Importation de Components
+## Exportation et importation de components
 
 Pour utiliser un component dans d'autres parties de votre application, vous devez l'exporter depuis son fichier source, puis l'importer là où vous souhaitez l'utiliser.
 
@@ -90,12 +90,12 @@ function App() {
 
 Dans cet exemple, `App` est un autre component fonctionnel qui utilise le component `Greeting`. Cela montre comment les components peuvent être composés pour former des UI complexes.
 
-## Bonnes Pratiques de Nomination
+## Bonnes pratiques de nomination
 
 - **Nommez vos components avec des noms descriptifs et en CamelCase :** Cela rend votre code plus lisible et facilite la compréhension de la structure de votre application.
 - **Gardez un component par fichier :** Cela améliore la réutilisabilité et la testabilité de vos components.
 
-## Utilisation Avancée : Components Composés
+## Utilisation avancée : components composés
 
 Les components peuvent être imbriqués pour créer des structures d'interface utilisateur plus complexes. Par exemple, vous pourriez créer un component `App` qui utilise plusieurs fois le component `Greeting` ou d'autres components pour former une page complète.
 

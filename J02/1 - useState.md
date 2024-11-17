@@ -55,7 +55,7 @@ La syntaxe `const [magicNumber, setMagicNumber] = useState(0);` est une forme de
 
 Sans `useState`, nos components seraient comme des statues : belles mais incapables de bouger ou de réagir. Avec `useState`, nos components peuvent danser, chanter et réagir au public (les utilisateurs). Cela rend notre spectacle (l'application) vivant et mémorable.
 
-### Exemple Interactif : Changer de Thème 🌓
+### Exemple Interactif : changer de thème 🌓
 
 Regardez cet autre tour de magie. Nous allons créer un interrupteur qui change le thème de la page entre "clair" et "sombre".
 
@@ -112,7 +112,7 @@ Tout comme dans tout bon jeu de société, il y a des règles à suivre avec `us
 
 3. **L'immuabilité est reine :** Ne modifiez jamais directement l'état. Utilisez toujours la fonction de mise à jour que `useState` vous donne. C'est comme écrire une nouvelle page dans votre livre de sorts plutôt que de gribouiller sur l'ancienne.
 
-## Mettre en Pratique : Un Sort de Liste 📚
+## Mettre en pratique : Un sort de liste 📚
 
 Mettons en œuvre un sortilège pour afficher une liste d'éléments magiques et permettre à l'utilisateur de les ajouter à volonté.
 

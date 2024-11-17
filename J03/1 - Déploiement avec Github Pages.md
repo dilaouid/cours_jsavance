@@ -1,4 +1,4 @@
-# Déployer une Application React avec Vite sur GitHub Pages
+# Déployer une application React avec Vite sur GitHub Pages
 
 Déployer votre application React construite avec Vite sur GitHub Pages est un excellent moyen de partager votre travail avec le monde. Voici un guide étape par étape pour vous aider à y parvenir efficacement.
 

@@ -28,7 +28,7 @@ Voici comment vous pouvez démarrer un nouveau projet React avec Vite :
    npm install
    ```
 
-4. **Démarrage du Serveur de développement :** Une fois l'installation terminée, lancez le serveur de développement avec :
+4. **Démarrage du serveur de développement :** Une fois l'installation terminée, lancez le serveur de développement avec :
 
    ```sh
    npm run dev

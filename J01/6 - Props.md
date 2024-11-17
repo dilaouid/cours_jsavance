@@ -59,6 +59,6 @@ Dans cet exemple, le component `Card` utilise `props.children` pour afficher tou
 
   Pour rappel, vous pouvez vous renseigner sur la déstructuration dans le chapitre [Destructuration en JavaScript](https://github.com/dilaouid/cours_jsavance/blob/main/J01/4%20-%20Destructuring.md). Allez vraiment voir ces cours, ils sont très importants !!
 
-- **Composition plutôt que Héritage :** Favorisez l'utilisation de la composition de components et des props pour réutiliser le code entre les components plutôt que l'héritage (nous verrons cela plus en détail dans un chapitre ultérieur).
+- **Composition plutôt que héritage :** Favorisez l'utilisation de la composition de components et des props pour réutiliser le code entre les components plutôt que l'héritage (nous verrons cela plus en détail dans un chapitre ultérieur).
 
 Les props sont un mécanisme fondamental dans React pour construire des components interactifs et réutilisables. En les utilisant judicieusement, vous pouvez créer des applications modulaires et maintenables, facilitant la gestion de l'état et le flux de données dans votre application.

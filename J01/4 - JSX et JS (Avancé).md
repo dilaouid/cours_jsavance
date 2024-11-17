@@ -1,8 +1,8 @@
-# JSX vs JS : Spécificités et Utilisation Avancée
+# JSX vs JS : spécificités et ytilisation avancée
 
 L'une des caractéristiques les plus puissantes de JSX est sa capacité à intégrer des expressions JavaScript directement au sein de la syntaxe HTML-like, rendant la création d'interfaces utilisateur dynamiques et réactives plus intuitive et efficace. Cette intégration se fait principalement à travers l'utilisation des accolades `{}`. Explorons plus en détail comment JSX améliore l'expérience de développement en React, notamment pour les débutants.
 
-## Intégration des Expressions JavaScript dans JSX
+## Intégration des expressions JavaScript dans JSX
 
 ### Variables dans JSX
 
@@ -17,7 +17,7 @@ const element = <h1>Hello, {nom} !</h1>;
 
 Dans cet exemple, `{nom}` est une expression JavaScript insérée dans JSX qui permet d'insérer dynamiquement le contenu de la variable `nom` dans l'élément `h1`.
 
-### Listes et Expressions Conditionnelles
+### Listes et expressions conditionnelles
 
 Les accolades `{}` sont également utilisées pour intégrer des listes d'éléments JSX générées à partir de données JavaScript, comme des tableaux, ou pour insérer des éléments conditionnellement en utilisant des opérateurs JavaScript tels que `&&` pour la conditionnelle courte ou l'opérateur ternaire pour des conditions plus complexes.
 
@@ -47,7 +47,7 @@ const statusClass = `status ${userStatus}`;
 const statusElement = <div className={statusClass}>Status: {userStatus}</div>;
 ```
 
-## Événements et Gestionnaires d'Événements
+## Événements et gestionnaires d'événements
 
 JSX simplifie la gestion des événements en permettant d'assigner directement des gestionnaires d'événements aux éléments, en utilisant une syntaxe similaire à celle de HTML, mais en camelCase.
 

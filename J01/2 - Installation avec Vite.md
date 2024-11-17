@@ -8,13 +8,13 @@ Vite est un outil de build moderne qui offre une expérience de développement r
 - **Hot Module Replacement (HMR) :** Vite améliore l'expérience de développement avec HMR ultra-rapide, permettant de refléter les modifications du code en temps réel sans perdre l'état de l'application.
 - **Build Optimisé :** Quand il s'agit de build pour la production, Vite utilise Rollup sous le capot, assurant un code de production optimisé et performant.
 
-## Installation Étape par Étape
+## Installation étape par étape
 
 Voici comment vous pouvez démarrer un nouveau projet React avec Vite :
 
 1. **Prérequis :** Assurez-vous d'avoir Node.js installé sur votre machine. Vous pouvez vérifier cela en exécutant `node -v` dans votre terminal.
 
-2. **Création du Projet :** Ouvrez votre terminal et tapez la commande suivante pour créer un nouveau projet React avec Vite :
+2. **Création du projet :** Ouvrez votre terminal et tapez la commande suivante pour créer un nouveau projet React avec Vite :
 
    ```sh
    npm create vite@latest mon-app-react -- --template react
@@ -22,13 +22,13 @@ Voici comment vous pouvez démarrer un nouveau projet React avec Vite :
 
    Cette commande va créer un nouveau dossier nommé `mon-app-react` avec une structure de projet React initialisée par Vite.
 
-3. **Installation des Dépendances :** Accédez au dossier du projet avec `cd mon-app-react` et installez les dépendances en exécutant :
+3. **Installation des dépendances :** Accédez au dossier du projet avec `cd mon-app-react` et installez les dépendances en exécutant :
 
    ```sh
    npm install
    ```
 
-4. **Démarrage du Serveur de Développement :** Une fois l'installation terminée, lancez le serveur de développement avec :
+4. **Démarrage du Serveur de développement :** Une fois l'installation terminée, lancez le serveur de développement avec :
 
    ```sh
    npm run dev
@@ -36,9 +36,9 @@ Voici comment vous pouvez démarrer un nouveau projet React avec Vite :
 
    Cela va démarrer le serveur de développement de Vite et ouvrir votre application React dans le navigateur par défaut.
 
-5. **Exploration du Projet :** Vous pouvez maintenant explorer la structure du projet généré par Vite. Vous trouverez le point d'entrée de votre application dans le fichier `index.html`, et votre code React dans le dossier `src`.
+5. **Exploration du projet :** Vous pouvez maintenant explorer la structure du projet généré par Vite. Vous trouverez le point d'entrée de votre application dans le fichier `index.html`, et votre code React dans le dossier `src`.
 
-## Structure de Fichier Suggérée
+## Structure de fichier suggérée
 
 Vite crée une structure de projet minimaliste, mais il est conseillé d'organiser votre projet en séparant les components, les assets et les tests dans des dossiers dédiés. Voici une structure de fichier suggérée :
 

@@ -14,21 +14,17 @@ const element = <h1>Bonjour, monde !</h1>;
 
 Ce code définit une constante `element` qui contient un titre H1 avec le texte "Bonjour, monde !". À première vue, cela ressemble à du HTML, mais c'est du JSX qui sera transpilé en JS pur.
 
-## Qu'est-ce que le JavaScript ?
-
-JavaScript est un langage de programmation qui permet de créer du contenu dynamique sur le web. Il est utilisé pour manipuler des documents HTML, gérer les événements, réaliser des animations, et bien plus encore. Dans le contexte de React, JS est utilisé pour définir la logique des components, gérer les états, les props, et interagir avec des APIs.
-
 ### Exemple de JavaScript pur pour créer le même élément
 
-```javascript
+```js
 const element = React.createElement('h1', null, 'Bonjour, monde !');
 ```
 
 Ici, nous utilisons la fonction `React.createElement` pour créer un élément HTML. Le premier argument est le type d'élément (`'h1'`), le second est un objet contenant les attributs ou `props` (ici `null` car nous n'en avons pas), et le troisième est le contenu de l'élément.
 
-## Comparaison et Avantages
+## Comparaison et avantages
 
-### Lisibilité et Expressivité
+### Lisibilité et expressivité
 
 - **JSX :** Permet une syntaxe plus proche du HTML, rendant le code plus lisible, surtout lorsqu'il s'agit de décrire des structures complexes d'UI.
 - **JS :** Peut devenir rapidement verbeux et moins clair, en particulier pour les nouveaux développeurs ou ceux qui sont moins familiers avec les fonctions de création d'éléments React.
@@ -37,7 +33,7 @@ Ici, nous utilisons la fonction `React.createElement` pour créer un élément H
 
 - **JSX et JS :** Une fois transpilé, le JSX est converti en appels JavaScript (`React.createElement`), ce qui signifie qu'il n'y a pas de différence de performance significative entre écrire directement en JS ou utiliser JSX.
 
-### Flexibilité et Fonctionnalités
+### Flexibilité et fonctionnalités
 
 - **JSX :** Permet d'intégrer facilement des expressions JavaScript (variables, fonctions, etc.) directement dans la structure de l'UI en utilisant des accolades `{}`.
 - **JS :** Nécessite la manipulation explicite du DOM ou l'utilisation de `React.createElement` pour chaque élément, ce qui peut rendre le code plus difficile à suivre et à maintenir.

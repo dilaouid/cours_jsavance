@@ -1,4 +1,4 @@
-# Plongée dans `useEffect` : Le Cœur Réactif de React 🌟
+# Plongée dans `useEffect` : Le cœur réactif de React 🌟
 
 Bienvenue dans le sanctuaire paisible de React où les effets secondaires ne sont pas à craindre, mais à chérir. Ici, nous allons nous familiariser avec `useEffect`, un Hook qui agit comme le pouls de nos components, les maintenant en phase avec le monde extérieur.
 
@@ -6,7 +6,7 @@ Bienvenue dans le sanctuaire paisible de React où les effets secondaires ne son
 
 Comme pour `useState`, `useEffect` est un Hook qui nous permet de donner à nos components une vie propre et réactive. Imaginez un jardin où les fleurs s'épanouissent en réponse à la lumière du soleil et se referment lorsque la lune se lève. De même, `useEffect` permet à nos components de réagir aux changements dans leur environnement. C'est un outil que React nous fournit pour synchroniser notre component avec des événements tels que des mises à jour du DOM, des souscriptions, ou des requêtes de données.
 
-### Syntaxe en Douceur
+### Syntaxe en douceur
 
 La syntaxe de `useEffect` est un appel à la contemplation et à l'action :
 
@@ -28,7 +28,7 @@ useEffect(() => {
 - La fonction passée à `useEffect` est exécutée après que le rendu du component est terminé.
 - Les "dépendances" indiquent quand cet effet doit se réexécuter. Si vous passez un tableau vide `[]`, l'effet ne se déclenchera qu'une fois, à l'instar d'une fleur qui ne s'ouvre qu'au premier rayon de soleil.
 
-## Pourquoi `useEffect` est votre Allié
+## Pourquoi `useEffect` est votre allié
 
 Sans `useEffect`, nos components seraient isolés, insensibles aux rythmes de l'application et du monde numérique qui les entoure. Ce Hook nous permet de :
 
@@ -36,7 +36,7 @@ Sans `useEffect`, nos components seraient isolés, insensibles aux rythmes de l'
 - Exécuter des opérations qui nécessitent une interaction avec le monde extérieur, comme des appels API (mais, comme je l'ai dit, les effets secondaires sont ici bienvenus, du coup au fur et à mesure de votre expérience, vous passerez plutôt par des librairies comme `react-query` ou `tanstack-query` pour gérer les appels API).
 - Mettre en place et nettoyer des abonnements ou des écouteurs d'événements.
 
-### Exemple Tranquille : Suivi de la Fenêtre
+### Exemple tranquille : suivi de la fenêtre
 
 Regardons un exemple qui utilise `useEffect` pour suivre la taille de la fenêtre du navigateur, un scénario classique où la réponse aux changements est essentielle.
 
@@ -68,7 +68,7 @@ function WindowSize() {
 
 Dans cet exemple, `useEffect` nous permet d'ajouter et de retirer un écouteur d'événements pour suivre la taille de la fenêtre. Ce genre de tâche serait laborieux et répétitif sans notre fidèle Hook.
 
-## Les Règles du Jeu pour `useEffect`
+## Les règles du jeu pour `useEffect`
 
 Tout comme vous ne danseriez pas une valse lors d'un match de football, il y a des moments et des manières d'utiliser `useEffect`.
 
@@ -78,7 +78,7 @@ Tout comme vous ne danseriez pas une valse lors d'un match de football, il y a d
 
 3. **Dépendances judicieuses :** Utilisez le tableau de dépendances pour contrôler la réexécution de l'effet. Omettre le tableau déclenchera l'effet après chaque rendu, alors que le définir vide `[]` le fera s'exécuter une seule fois.
 
-## En Résumé : `useEffect`, L'Harmonie entre React et le Monde
+## En résumé : `useEffect`, L'Harmonie entre React et le monde
 
 `useEffect` est l'ami fidèle qui veille à ce que nos components restent en phase avec le monde extérieur. Il nous permet de réagir aux changements, de nettoyer après nous, et de maintenir l'harmonie dans notre application.
 

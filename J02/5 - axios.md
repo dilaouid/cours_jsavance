@@ -1,8 +1,8 @@
-# Capturer les Données avec Axios dans React 🎣
+# Capturer les données avec Axios dans React 🎣
 
 Axios, très bon outil pour pêcher des informations sans se mouiller les pieds dans les eaux complexes des requêtes HTTP. Allez, mettons nos bottes de développeur et lançons notre ligne avec Axios pour attraper quelques données frétillantes. 🐟💻
 
-## Qu'est-ce qu'Axios ?
+## Qu'est-ce qu'axios ?
 
 Axios, c'est comme un perroquet bilingue dans l'univers de la programmation. Il sait parler à la fois le langage des serveurs et celui de React, facilitant la communication entre votre application et les contrées lointaines des serveurs. C'est un client HTTP basé sur les promesses qui rend les appels API vraiment simples et agréables ! 🌐
 
@@ -58,7 +58,7 @@ N'oubliez pas, les requêtes HTTP sont asynchrones, ce qui signifie qu'elles pre
 
 Autre chose, utiliser `await` n'est pas toujours la meilleure solution, car cela bloque le thread principal de JavaScript. C'est pourquoi nous utilisons `.then` et `.catch` pour gérer les réponses et les erreurs de manière asynchrone. Et il ne faut pas être certain à 5000% que la requête va réussir, il faut toujours gérer les erreurs, car, comme dans la vraie vie, tout peut arriver.
 
-## En Résumé : Axios, Votre Pêcheur de Données
+## En résumé : Axios, votre pêcheur de données
 
 Axios dans React, c'est votre canne à pêche sympathique pas piqué des hannetons pour attraper des données sans tracas. Il simplifie le processus, gère les erreurs comme un pro, et intègre parfaitement vos prises dans l'étang de votre component React. Alors, lancez votre ligne, détendez-vous, et regardez les données mordre à l'hameçon.
 

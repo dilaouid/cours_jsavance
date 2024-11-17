@@ -89,7 +89,7 @@ function ThemeSwitcher() {
 
 Dans ce tour, `useState` contrôle l'éclairage de notre scène. Un simple clic, et la lumière se transforme en obscurité, et vice-versa. On change le thème en appelant `setTheme`, une méthode magique qui nous permet de modifier l'état de `theme` à volonté.
 
-## Les Règles du Jeu 📜
+## Les règles du jeu 📜
 
 Tout comme dans tout bon jeu de société, il y a des règles à suivre avec `useState` pour éviter le chaos.
 
@@ -140,7 +140,7 @@ Avec chaque clic, notre sort `addItem` ajoute un nouvel élément à notre liste
 
 Et je répète encore ce que j'ai dis à l'oral, les HOF (Higher Order Functions) sont très importantes, et vous devez les maîtriser. Allez voir le cours sur les [HOF](https://github.com/dilaouid/cours_jsavance/tree/main/J02), c'est très important (encore une fois, oui, je sais, je suis lourd, mais c'est important).
 
-## Conclusion : Le Pouvoir des États 🎩✨
+## Conclusion : Le pouvoir des états 🎩✨
 
 Avec le sort `useState`, nous avons le pouvoir de créer des components réactifs et interactifs. Il transforme notre application d'une toile statique à une peinture en mouvement où chaque interaction est une touche de pinceau qui anime l'œuvre.
 

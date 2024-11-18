@@ -27,7 +27,7 @@ npm install @reduxjs/toolkit react-redux
 
 Le store est le cœur battant de votre gestion d'état Redux. C'est le moteur de votre véhicule (`Provider`). Avec RTK, sa mise en place est un jeu d'enfant.
 
-```javascript
+```js
 // src/app/store.js
 import { configureStore } from '@reduxjs/toolkit';
 
@@ -42,7 +42,7 @@ export const store = configureStore({
 
 Un "slice" est une portion de votre état global. Pensez-y comme à une page de votre grimoire. Avec `createSlice`, vous pouvez définir vos actions et reducers en un seul endroit.
 
-```javascript
+```js
 // src/features/counter/counterSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
@@ -94,7 +94,8 @@ Quand vous créez un slice avec `createSlice`, vous encapsulez logiquement une p
 
 Voyons plus en détail chaque partie du `createSlice` :
 
-```javascript
+```js
+// src/features/counter/counterSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 export const counterSlice = createSlice({
@@ -124,7 +125,8 @@ export const counterSlice = createSlice({
 
 Redux Toolkit génère automatiquement les actions correspondant aux reducers que vous avez définis. Pour les utiliser, vous exportez ces actions de votre fichier slice :
 
-```javascript
+```js
+// src/features/counter/counterSlice.js
 export const { increment, decrement } = counterSlice.actions;
 ```
 

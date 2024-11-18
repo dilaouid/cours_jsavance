@@ -22,7 +22,7 @@ useEffect(() => {
     // ici, on a retiré un écouteur d'événements pour éviter les fuites de mémoire.
 
   };
-}, [dependencies]);
+}, [ dependencies ]);
 ```
 
 - La fonction passée à `useEffect` est exécutée après que le rendu du component est terminé.

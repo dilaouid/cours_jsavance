@@ -24,9 +24,9 @@ function App() {
 
   return (
     <div>
-      <h1>Le Nombre Magique est : {magicNumber}</h1>
+      <h1>Le nombre magique est : {magicNumber}</h1>
       <button onClick={() => setMagicNumber(magicNumber + 1)}>
-        Augmente le Nombre Magique 🧚‍♂️
+        Augmente le nombre magique 🧚‍♂️
       </button>
     </div>
   );
@@ -95,7 +95,7 @@ Tout comme dans tout bon jeu de société, il y a des règles à suivre avec `us
 
 1. **Au sommet de votre component :** Placez `useState` en haut de votre component, pas dans des boucles ou des conditions. Sinon, React risque de se perdre dans son propre jeu de magie.
 
-   ```javascript
+   ```js
    // Ne faites PAS ça :
    if (userIsWizard) {
      const [spell, setSpell] = useState('Expecto Patronum');
@@ -105,7 +105,7 @@ Tout comme dans tout bon jeu de société, il y a des règles à suivre avec `us
 
 2. **Un seul état par variable :** Chaque appel à `useState` crée un état indépendant. Si vous avez plusieurs données à stocker, invoquez `useState` plusieurs fois.
 
-   ```javascript
+   ```js
    const [ owls, setOwls ] = useState(0);
    const [ wands, setWands ] = useState(0);
    ```
@@ -116,7 +116,7 @@ Tout comme dans tout bon jeu de société, il y a des règles à suivre avec `us
 
 Mettons en œuvre un sortilège pour afficher une liste d'éléments magiques et permettre à l'utilisateur de les ajouter à volonté.
 
-```javascript
+```js
 function MagicItems() {
   const [items, setItems] = useState(['Baguette', 'Chaudron']);
 
@@ -128,9 +128,9 @@ function MagicItems() {
   return (
     <div>
       <button onClick={addItem}>Ajouter un Item</button>
-      {items.map((item, index) => (
+      { items.map((item, index) => (
         <p key={index}>{item}</p> // Un peu de magie pour chaque élément unique.
-      ))}
+      )) }
     </div>
   );
 }
